@@ -27,7 +27,7 @@ public class CheckGuestBonus {
 		
 		do {
 		
-			System.out.println(guestParty[i]);
+			//System.out.println(guestParty[i]);
 			if(guestParty[i].equals(userParty)) {
 			    checkParty = true;
 			    break;
@@ -35,7 +35,7 @@ public class CheckGuestBonus {
 			
 			i++;
 			
-		}while(i < 11);
+		}while(i < guestParty.length);
 		
 		
 		if(checkParty)
